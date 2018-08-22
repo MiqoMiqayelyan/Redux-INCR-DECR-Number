@@ -1,0 +1,41 @@
+#root {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(67, 67, 192);
+}
+
+h1 {
+  font-size: 90px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+}
+
+.increment {
+  background-color: rgb(19, 88, 19);
+  border-color: rgb(19, 88, 19);
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.decrement {
+  background-color:  rgb(112, 8, 8);
+  border-color: rgb(112, 8, 8);
+  color: aliceblue;
+  font-size: 20px;
+}
